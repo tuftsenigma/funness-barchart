@@ -1,4 +1,4 @@
-# Stress Levels Histogram
+# `Funness' Diverging Barchart
 
 
 A diverging barchart visualizing results of 'ranking Tufts parties' answered by 600+ Tufts students. D3 visualization animates / dynamically changes to display different results by graduating year.
