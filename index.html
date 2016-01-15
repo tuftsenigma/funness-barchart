@@ -57,7 +57,7 @@ button {
 
 
 var margin = {top: 100, right: 20, bottom: 10, left: 100},
-    width = 650 - margin.left - margin.right,
+    width = 600 - margin.left - margin.right;
     height = 300 - margin.top - margin.bottom;
 
 var y = d3.scale.ordinal()
@@ -283,6 +283,10 @@ function updateData(id) {
 
 
     };
+
+  d3.select(window).on('resize', resize); 
+
+
 </script>
 
 </body>
