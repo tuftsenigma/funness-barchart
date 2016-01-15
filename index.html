@@ -41,7 +41,7 @@ button {
 <!-- <div id="title" style="width: 1000px; height: 5px; font-family: 'Roboto Condensed';"></div>
  -->
 
-<div id="figure" style="margin-bottom: 50px; background: transparent;"></div>
+<div id="figure" style="margin-bottom: 50px;"></div>
   <div id="buttons" class="btn-group btn-group-center" role="group" aria-label="...">
     <button id="2019" class="btn btn-default" onclick="updateData(this.id)">2019</button>
     <button id="2018" class="btn btn-default" onclick="updateData(this.id)">2018</button>
@@ -56,9 +56,9 @@ button {
 
 
 
-var margin = {top: 100, right: 20, bottom: 10, left: 115},
-    width = 800 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+var margin = {top: 100, right: 20, bottom: 10, left: 100},
+    width = 650 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
 
 var y = d3.scale.ordinal()
     .rangeRoundBands([0, height], .3);
